@@ -133,7 +133,7 @@ async function fetchImg(name, page) {
     //Якщо користувач дійшов до кінця колекції
     if (response.data.hits.length < 40) {
       refs.loadMoreBtn.style.display = 'none'; // кнопку не бачимо
-      Notiflix.Notify.success(
+      Notiflix.Notify.info(
         `We're sorry, but you've reached the end of search results.`
       );
     }
