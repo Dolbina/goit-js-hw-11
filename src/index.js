@@ -96,7 +96,7 @@ const insertContent = (array) => {
 
 // запрос зображення
 async function fetchImg(name, page) {
-  const API_URL = 'https://pixabay.com/api';
+  const API_URL = 'http://pixabay.com/api';
   const options = {
     params: {
       key: '34361382-9628d27261ff8745ccc230a20',
